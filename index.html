@@ -1,7 +1,12 @@
 <head>
     <!-- for optimal display on high DPI devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <!-- 启用webAPP全屏模式-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- 隐藏状态栏或者设置状态栏的颜色-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.min.css"/>
   </head>
   
@@ -17,4 +22,5 @@
       container: document.querySelector('#viewer'),
       panorama: 'Test1.jpg'
     });
+    PhotoSphereViewer.
   </script>
